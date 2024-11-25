@@ -3,33 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
-    
+    <title>Spotify - Clone</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="brand"><img src="spotify.png" alt="Spotify">Spotify</li>
-            <li>Home</li>
-            <li>About</li>
-            <li>Home</li>
-            <li>Home</li>
-
-        </ul>
-    </nav>
-    
- <div class="conatiner">
-    <h1> Best of NCS - No Copyright Sounds </h1>
-    <div class="songlist"></div>
-    <div class="songbanner"></div>
- </div>
- <div class="bottom">
-    <input type="range" name="range" id="Myprogressbar" min="0" max="100">
- </div>
- <div class="icons">
-    <!--fontawesome icons-->
- </div>
- <script src="script.js"></script>
+    <img src="Spotify-Black-Logo.wine.svg" alt="spotify-logo" style="margin-left: -550px;">
+    <div class="container flex">
+        <div class="left border">
+            <div class="home">
+                <ul>
+                    <li><img src="home.svg" alt="home" srcset="">Home</li>
+                    <li><img src="search.svg" alt="search" srcset="">Search</li>
+                </ul>
+            </div>
+            <div class="library"></div>
+        </div>
+        <div class="right border"></div>
+    </div>
 </body>
 </html>

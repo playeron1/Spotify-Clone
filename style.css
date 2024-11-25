@@ -1,48 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body{
-    background-color:antiquewhite;
+    /*background-color: black;
+    color: white;*/
 }
-*{
-    margin: 0;
-    padding: 0;
+.home ul li{
+    width: 32px;
+    list-style: none;
 }
-nav{
-font-family: 'Rubik',swap;
-}
-nav ul{
+.flex{
     display: flex;
-    list-style-type: none;
-    height:80px;
-    background-color: black;
-    color: white;
-    align-items: center;
 }
-nav ul li{
-    padding: 10px 10px ;
-}
-.brand img{
-    width: 45px;
-    padding: 0 8px;
-}
-.brand{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
-}
-.container{
-    min-height: 75vh;
-}
-.bottom{
-    position: sticky;
-    height: 130px;
-    background: #000;
-    bottom: 0;
-    display: flex;
+.justify-center{
     justify-content: center;
+}
+.items-center{
     align-items: center;
 }
-#Myprogressbar{
-    width: 80vw;
-    text-align: center;
+.red-border{
+    border: 2px solid red;
+}
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.left{
+    width: 25vw;
+}
+.right{
+    width: 75vw;
 }
