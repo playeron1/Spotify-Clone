@@ -84,3 +84,38 @@ body{
     color: grey;
     list-style: none;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    background-color: rgb(34, 34, 34);
+}
+.header > *{
+    padding: 4px;
+}
+.right{
+    margin: 16px 0;
+}
+.spotifyPlaylists{
+    padding: 16px;
+}
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card > *{
+    padding-top: 10px;
+}
