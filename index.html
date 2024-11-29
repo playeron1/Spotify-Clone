@@ -7,16 +7,29 @@
     <title>Spotify - Clone</title>
 </head>
 <body>
-    <img src="Spotify-Black-Logo.wine.svg" alt="spotify-logo" style="margin-left: -550px;">
-    <div class="container flex">
-        <div class="left border">
-            <div class="home">
+    <div class="container flex bg-black">
+        <div class="left border bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <img class="invert"  src="Spotify-Black-Logo.wine.svg" alt="spotify-logo" style="margin-left: -550px;margin-top: -15px;">
                 <ul>
-                    <li><img src="home.svg" alt="home" srcset="">Home</li>
-                    <li><img src="search.svg" alt="search" srcset="">Search</li>
+                    <li><img class="invert"  src="home.svg" alt="home" class="invert"  srcset="">Home</li>
+                    <li><img class="invert"  src="search.svg" alt="search" class="invert"  srcset="">Search</li>
                 </ul>
             </div>
-            <div class="library"></div>
+            <div class="library bg-grey rounded m-1">
+                <div class="heading">
+                    <img src="playlist.svg" class="invert" alt="playlist">
+                <h2>Your Library</h2>
+                </div>
+                <div class="footer">
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/" class="bottom-link">Legal</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/safetyandprivacy/" class="bottom-link">Safety &amp; Privacy Center</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="bottom-link">Privacy Policy</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="bottom-link">Cookies</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="bottom-link">About Ads</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/accessibility/" class="bottom-link">Accessibility</a></div>
+                </div>
+            </div>
         </div>
         <div class="right border"></div>
     </div>
