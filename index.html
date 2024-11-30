@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Spotify - Clone</title>
 </head>
+
 <body>
     <div class="container flex bg-black">
         <div class="left  bg-black">
             <div class="home bg-grey rounded m-1 p-1">
-                <img class="invert"  src="Spotify-Black-Logo.wine.svg" alt="spotify-logo" style="margin-left: -550px;margin-top: -15px;">
+                <img class="invert" src="Spotify-Black-Logo.wine.svg" alt="spotify-logo"
+                    style="margin-left: -550px;margin-top: -15px;">
                 <ul>
-                    <li><img class="invert"  src="home.svg" alt="home" class="invert"  srcset="">Home</li>
-                    <li><img class="invert"  src="search.svg" alt="search" class="invert"  srcset="">Search</li>
+                    <li><img class="invert" src="home.svg" alt="home" class="invert" srcset="">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search" class="invert" srcset="">Search</li>
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1">
                 <div class="heading">
                     <img src="playlist.svg" class="invert" alt="playlist">
-                <h2>Your Library</h2>
+                    <h2>Your Library</h2>
                 </div>
                 <div class="footer">
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/" class="bottom-link">Legal</a></div>
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/safetyandprivacy/" class="bottom-link">Safety &amp; Privacy Center</a></div>
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="bottom-link">Privacy Policy</a></div>
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="bottom-link">Cookies</a></div>
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="bottom-link">About Ads</a></div>
-                    <div class="link-container"><a href="https://www.spotify.com/in-en/accessibility/" class="bottom-link">Accessibility</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/"
+                            class="bottom-link">Legal</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                            class="bottom-link">Safety &amp; Privacy Center</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                            class="bottom-link">Privacy Policy</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                            class="bottom-link">Cookies</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                            class="bottom-link">About Ads</a></div>
+                    <div class="link-container"><a href="https://www.spotify.com/in-en/accessibility/"
+                            class="bottom-link">Accessibility</a></div>
                 </div>
             </div>
         </div>
         <div class="right bg-grey rounded">
             <div class="header">
                 <div class="nav">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
-                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
-                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </div>
                 <div class="buttons">
-                    <button>Signup</button>
-                    <button>Login</button>
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
             <div class="spotifyPlaylists">
@@ -51,22 +64,49 @@
                 <div class="cardContainer">
                     <div class="card">
                         <div class="play">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
-                                <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"
+                                fill="none">
+                                <!-- Green Circle Background with Padding -->
+                                <circle cx="16" cy="16" r="16" fill="none" />
+                                <!-- Centered Play Button -->
+                                <path
+                                    d="M21.5 16.5C21.1 18 19.3 19 16 21C12.9 22.9 11.4 23.8 10.3 23.4C9.7 23.3 9.2 23 8.8 22.6C8 21.7 8 20 8 16C8 12 8 10.3 8.8 9.4C9.2 9 9.7 8.7 10.3 8.6C11.4 8.2 12.9 9.1 16 11C19.3 13 21.1 14 21.5 15.5C21.7 16.1 21.7 16.9 21.5 16.5Z"
+                                    stroke="black" stroke-width="1" stroke-linejoin="miter" fill="black" />
+                            </svg>
+                        </div>
+                        <img src="song-pic.jpeg">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your playlist </p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"
+                                fill="none">
+                                <!-- Green Circle Background with Padding -->
+                                <circle cx="16" cy="16" r="16" fill="none" />
+                                <!-- Centered Play Button -->
+                                <path
+                                    d="M21.5 16.5C21.1 18 19.3 19 16 21C12.9 22.9 11.4 23.8 10.3 23.4C9.7 23.3 9.2 23 8.8 22.6C8 21.7 8 20 8 16C8 12 8 10.3 8.8 9.4C9.2 9 9.7 8.7 10.3 8.6C11.4 8.2 12.9 9.1 16 11C19.3 13 21.1 14 21.5 15.5C21.7 16.1 21.7 16.9 21.5 16.5Z"
+                                    stroke="black" stroke-width="1" stroke-linejoin="miter" fill="black" />
                             </svg>
                         </div>
                         <img src="song-pic.jpeg" alt="">
                         <h2>Happy Hits</h2>
                         <p>Hits to boost your playlist </p>
                     </div>
-                    <div class="card">
-                        <img src="song-pic.jpeg" alt="">
-                        <h2>Happy Hits</h2>
-                        <p>Hits to boost your playlist </p>
-                    </div>
                 </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img src="backward.svg" alt="">
+                        <img src="playsong.svg" alt="">
+                        <img src="forward.svg" alt="">
+                    </div>
+                    <div class="songtime">
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
